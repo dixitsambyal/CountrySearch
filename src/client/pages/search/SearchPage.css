@@ -1,0 +1,17 @@
+.country-search {
+  margin: 20px;
+}
+#button {
+    background-color: burlywood; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 3rem;
+}
+.country-search-label{
+    color: darkblue;
+    padding-right: 20px;
+}

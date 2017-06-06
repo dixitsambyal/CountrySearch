@@ -1,0 +1,47 @@
+
+.styles-text-white { color: #FFFFFF !important; text-decoration: none !important; }
+.styles-text-black { color: #000000 !important; text-decoration: none !important; }
+
+.title {
+  font-size: 18pt;
+  font-weight: 400; /* Normal */
+}
+
+.heading {
+  font-size: 16pt;
+  font-weight: 550; /* Semibold */
+}
+
+.subheading {
+  font-size: 11pt;
+  font-weight: 600; /* Normal */
+}
+
+.annotation {
+  font-size: 9pt;
+  padding-right: 10px;
+  color: #BBBBBB;
+  font-weight: 100; /* Normal */
+}
+
+.annotation-bold {
+  font-size: 9pt;
+  color: #FFFFFF;
+  font-weight: 600; /* Normal */
+}
+
+.body {
+  font-size: 13pt;
+  font-weight: 400; /* Normal */
+}
+
+.label {
+  padding-left: 0;
+  font-size: 18pt;
+  font-weight: lighter; /* Semibold */
+}
+
+.button {
+  font-size: 14pt;
+  font-weight: 550; /* Semibold */
+}
