@@ -13,7 +13,7 @@ const mapCountryData = (countryData,inputText) => {
       if(countryData[i].name.toLowerCase().indexOf(inputText.toLowerCase()) !== -1) 
         countryList.push({'country':countryData[i].name,'capital':countryData[i].capital,'continent':countryData[i].region,'population':countryData[i].population,'flag':countryData[i].flag})
     }    }    
-  else{ 
+  if(!countryList.length >0){ 
     countryList.push({'NO RESULT FOUND':'Give another keyword'})    
   }    
   return countryList;
