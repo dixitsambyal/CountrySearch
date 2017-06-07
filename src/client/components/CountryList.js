@@ -1,11 +1,9 @@
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
-// import './FilmList.scss'
 
 class CountryList extends Component {
   constructor(props) {
     super(props)
-    // this.onClick = this.props.onClick
   }
 
   generateHeaders(row) {
