@@ -35,8 +35,8 @@ const receiveCountryData = (json,inputText) => {
 
 export const fetchCountryData = (inputText) => {
   return (dispatch) => {
-    dispatch(requestCountryData(inputText))
-		//const proxyUrl = 'https://cors-anywhere.herokuapp.com/',
+    dispatch(requestCountryData(inputText)
+		
 	const targetUrl = 'https://restcountries.eu/rest/v2/name/'+inputText
     return fetch(targetUrl)
       .then((response) => response.json())
