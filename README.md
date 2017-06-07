@@ -6,7 +6,7 @@ Ensure that node is installed, then clone or download the repo and type 'npm ins
 
 Building the application
 ------------------------
-Within the root folderType, 'npm run build', it uses webpack to build the application
+Within the root folder type, 'npm run build', it uses webpack to build the application
 
 Running the application
 -----------------------
