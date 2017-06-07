@@ -18,6 +18,7 @@ Usage:
 ------
 
 This application fetches you the details of a country viz. Name, Capital, Population, Continent and Flag based on the keyword searched for.
+For a blank search it will fetch the details of all the countries.
 
 Example:
 --------
@@ -29,6 +30,6 @@ On searching for a keyword “aus”, it will fetch the details for Australia an
 Screenshot
 ----------
 
-![picture](CountrySearch.png)
+![picture](CountrySearch.PNG)
 
 
