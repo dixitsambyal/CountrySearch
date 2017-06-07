@@ -24,8 +24,7 @@ const requestCountryData = (inputText) => {
 }
 
 const receiveCountryData = (json,inputText) => {
-  var countryData = []
-  //json.length ? countryData = mapCountryData(json,inputText) : [] 
+  var countryData = [] 
   json.length ? countryData = sortBy(json, (country) =>{ return country.name; }) : []
     
   return {
