@@ -72,7 +72,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     fetchCountryData: (inputText) => {
-      dispatch(fetchCountryData(inputText))
+      dispatch(fetchCountryData(inputText.trim()))
     }
   }
 }
