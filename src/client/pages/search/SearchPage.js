@@ -35,7 +35,7 @@ class SearchPage extends Component {
     return (
       <div className="country-search">
         <label className="country-search-label">Search</label>
-        <input className="styles-text-black" type="text" id="one" onKeyDown={event => this.handleEnter(event)} onChange={this.handleChange}/>
+        <input className="styles-text-black" type="text" id="one" onKeyDown={(event) => this.handleEnter(event)} onChange={this.handleChange}/>
         <input type ="button" id="button"  value="Submit" onClick={this.fetchData} />
         {countryData != undefined && countryData.length >0 &&
                 <CountryList data={countryData}/>
